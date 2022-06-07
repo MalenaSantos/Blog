@@ -1,3 +1,6 @@
+<!-- criamos o navbar.php para se necessário solicitá-lo em outra página -->
+<!-- adicionando o meu código do bootstrap docs ->components ->navbar -->
+
 <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>

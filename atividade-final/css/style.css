@@ -1,0 +1,16 @@
+/* lista não ordenada */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img{
+    width: 10%;
+}
+#img2{
+    width: 10%;
+}
+#img1{
+    width: 10%;
+}
