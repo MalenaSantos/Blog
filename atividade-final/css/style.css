@@ -1,16 +1,24 @@
-/* lista não ordenada */
 ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+    margin: 0 auto;
 }
 
-#img{
-    width: 10%;
+
+#logomarca-footer{
+    width: 20%;
 }
-#img2{
-    width: 10%;
+.footer-text{
+    color: white;
 }
-#img1{
-    width: 10%;
+
+#github{
+    width: 2.5%;
+    text-align: right;
+}
+#linkedin{
+    width: 2.5%;
+    text-align: right;
+}
+#logo{
+    width:45%;
+    margin-left: 1rem;
 }

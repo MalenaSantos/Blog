@@ -12,31 +12,26 @@
 </head>
 
 <body>
-    <!-- link para meu javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <?php
-    //incluindo nav.php  
     include ('nav.php');
     ?>
-<!--uma divisão mãe vai receber as divs que estão relacionadas ao mesmo serviço  -->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-            <!-- tag de botão -->
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <!-- informando as imagens dentro de suas divisões(caixas) -->
             <div class="carousel-item active">
-                <img src="images/01.jpg" class="d-block w-100" alt="Programação para Crianças">
+                <img src="images/foto01.png" class="d-block w-100" alt="Programação para Crianças">
             </div>
             <div class="carousel-item">
-                <img src="images/foto-02.png" class="d-block w-100" alt="Linguagens de Programação">
+                <img src="images/foto02.png" class="d-block w-100" alt="Linguagens de Programação">
             </div>
             <div class="carousel-item">
-                <img src="images/foto-03.jpg" class="d-block w-100" alt="Carreiras na área de TI">
+                <img src="images/foto03.png" class="d-block w-100" alt="Carreiras na área de TI">
             </div>
         </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -49,7 +44,6 @@
             </button>
     </div>
         <div class="container">
-            <!-- uma divisão de cards  -->
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card">
@@ -90,7 +84,6 @@
             </div>
         </div>
     <?php
-    //incluido meu footer
     include('footer.php');
     ?>
 
